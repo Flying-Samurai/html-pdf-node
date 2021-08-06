@@ -1,6 +1,6 @@
 {
   "name": "fs-html-pdf-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert any html content or html page to PDF",
   "main": "index.js",
   "directories": {
@@ -29,10 +29,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrafiqk/html-pdf-node.git"
+    "url": "git+https://github.com/flying-samurai/html-pdf-node.git"
   },
   "bugs": {
-    "url": "https://github.com/mrafiqk/html-pdf-node/issues"
+    "url": "https://github.com/flying-samurai/html-pdf-node/issues"
   },
-  "homepage": "https://github.com/mrafiqk/html-pdf-node#readme"
+  "homepage": "https://github.com/flying-samurai/html-pdf-node#readme"
 }
