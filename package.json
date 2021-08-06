@@ -1,6 +1,6 @@
 {
-  "name": "html-pdf-node",
-  "version": "1.0.7",
+  "name": "fs-html-pdf-node",
+  "version": "1.0.0",
   "description": "Convert any html content or html page to PDF",
   "main": "index.js",
   "directories": {
@@ -9,8 +9,8 @@
   "scripts": {
     "test": "mocha tests/*.js -R spec --ui bdd --timeout 5000"
   },
-  "author": "mrafiqk",
-  "license": "ISC",
+  "author": "Sherin Binu <sherinbinu@hotmail.com>",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.7.2",
     "handlebars": "^4.7.6",
