@@ -76,6 +76,7 @@ async function generatePdfs(files, options, callback) {
     let pdfObj = JSON.parse(JSON.stringify(file));
     delete pdfObj['content'];
     pdfObj['buffer'] = Buffer.from(Object.values(await page.pdf(options)));
+    page.close()
     pdfs.push(pdfObj);
   }
 
